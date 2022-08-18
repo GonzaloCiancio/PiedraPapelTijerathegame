@@ -1,0 +1,25 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  background: green;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: inline-block;
+}
+
+.maquina {
+  transform: translatex(100%) translatey(-42%);
+  display: inline-block;
+}
+
+.border {
+  border: 2px solid black;
+  position: absolute;
+}
